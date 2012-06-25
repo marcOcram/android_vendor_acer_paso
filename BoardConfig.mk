@@ -26,5 +26,8 @@ TARGET_RECOVERY_PRE_COMMAND := "touch /cache/recovery/boot;sync;"
 BOARD_HAS_SMALL_RECOVERY := true
 BOARD_HAS_NO_MISC_PARTITION := true
 BOARD_USES_RECOVERY_CHARGEMODE := false
+
+# Recovery
+
 BOARD_CUSTOM_GRAPHICS := ../../../device/acer/paso/recovery/graphics.c
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/acer/paso/recovery/recovery_ui.c
